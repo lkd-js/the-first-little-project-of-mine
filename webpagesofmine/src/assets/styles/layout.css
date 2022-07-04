@@ -1,0 +1,21 @@
+html{
+    font-size: 100px;
+}
+body{
+    width: 100vw;
+    font-size: 0.14rem
+}
+.layout{
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+
+@keyframes bgcTransition {
+    0% {background-color: #fff;}
+    100%{background-color: rgba(0, 0, 0, 0.885);}
+}
+
+body.trs{
+    animation: bgcTransition 3s linear 0s 1 normal forwards;
+}

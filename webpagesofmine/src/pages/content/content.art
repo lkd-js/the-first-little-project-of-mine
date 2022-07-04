@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到详情页</title>
+</head>
+<body>
+    <div id="content-page" class="layout">
+        <!-- 头部 -->
+        <header id="content-topbar" class="topbar-layout">
+            <% include('../../components/top-bar/top-bar.art',{text:'资源'}) %>          
+        </header>
+     
+        <!-- 导航 -->
+        <nav id="content-nav" class="nav-layout">
+            {{include '../../components/header-nav/header-nav.art'}}
+        </nav>
+
+        <!-- 主体内容 -->
+        <div id="content-main" class="main-layout">
+            {{include './main/main.art'}}
+        </div>
+
+        <!-- 页脚 -->
+        <div id="index-footer" class="footer-layout">
+            {{include '../../components/footer/footer.art'}}
+        </div>
+    </div>
+</body>
+</html>

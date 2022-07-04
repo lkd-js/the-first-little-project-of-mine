@@ -1,0 +1,19 @@
+.footer-container{
+    width: 100%;
+    height: 0.4rem;
+    background-color: #39c5bb;
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container span{
+    width: 100%;
+}
+.footer-container span a{
+    height: 100%;
+    width: 40%;
+    font-size: 0.16rem;
+    color: white;
+    float: right;
+}

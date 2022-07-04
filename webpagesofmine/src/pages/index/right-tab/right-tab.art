@@ -1,0 +1,34 @@
+<div class="right-tab">
+    <ul>
+        <li class="tab">
+            <a href="#music">
+                <i class="iconfont icon-headset"></i>
+                <span>音乐</span>
+            </a>
+        </li>
+        <li class="tab">
+            <a href="#video">
+                <i class="iconfont icon-shipin"></i>
+                <span>视频</span>
+            </a>
+        </li>
+        <li class="tab">
+            <a href="#book">
+                <i class="iconfont icon-wenjian"></i>
+                <span>资源</span>
+            </a>
+        </li>
+        <li class="tab">
+            <a href="#talk">
+                <i class="iconfont icon-liaotian"></i>
+                <span>讨论</span>
+            </a>
+        </li>
+        <li class="tab">
+            <a href="content.html">
+                <i class="iconfont icon-Plus"></i>
+                <span>添加</span>
+            </a>
+        </li>
+    </ul>
+</div>

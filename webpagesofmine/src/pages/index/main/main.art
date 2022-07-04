@@ -1,0 +1,46 @@
+<div class="content-container">
+    <div class="music part" id="music">
+        <h2>音乐</h2>
+        <div class="inner-container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="video part" id="video">
+        <h2>视频</h2>
+        <div class="inner-container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="book part" id="book">
+        <h2>资源</h2>
+        <div class="inner-container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="talk part" id="talk">
+        <h2>讨论</h2>
+        <div class="inner-container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>

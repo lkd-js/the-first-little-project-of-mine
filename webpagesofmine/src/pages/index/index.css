@@ -1,0 +1,11 @@
+.slider-layout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider-layout .carousel-container{
+    width: 80%;
+}
+.slider-layout .right-tab{
+    flex:1;
+}

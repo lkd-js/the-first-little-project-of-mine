@@ -1,0 +1,104 @@
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon-arrow-left {
+  height: 0.5rem;
+  width: 0.4rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 50%;
+  margin-top: -0.25rem;
+  background-color: #39c5bc8e;
+  border-radius: 0.05rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 88;
+}
+
+.icon-arrow-left:hover {
+  background-color: #39c5bb;
+}
+
+.icon-arrow-right {
+  height: 0.5rem;
+  width: 0.4rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 50%;
+  margin-top: -0.25rem;
+  background-color: #39c5bc8e;
+  border-radius: 0.05rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.2rem;
+  color: white;
+  cursor: pointer;
+  z-index: 88;
+}
+
+.icon-arrow-right:hover {
+  background-color: #39c5bb;
+}
+
+.carousel-container ul {
+  width: 0.95rem;
+  height: 0.1rem;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 50%;
+  margin-left: -0.475rem;
+  z-index: 99;
+}
+
+.carousel-container ul li {
+  height: 0.1rem;
+  width: 0.1rem;
+  border-radius: 0.04rem;
+  float: left;
+  margin-right: 0.05rem;
+  background-color: #39c5bc8e;
+  cursor: pointer;
+}
+
+.carousel-container ul li:last-child {
+  margin-right: 0;
+}
+
+.carousel-container ul li.active {
+  background-color: #39c5bb;
+  width: 0.2rem;
+}
+
+.carousel-container .carousel {
+  width: 800%;
+  height: 100%;
+}
+
+.carousel-container .carousel img {
+  float: left;
+  height: 100%;
+  width: 12.5%;
+}
+
+@media screen and (max-width:860px) {
+
+  .icon-arrow-left,
+  .icon-arrow-right{
+    display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .carousel-container ul {
+    display: none;
+  }
+}

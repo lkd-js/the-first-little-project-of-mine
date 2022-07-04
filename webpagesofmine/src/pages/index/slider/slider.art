@@ -1,0 +1,24 @@
+<div class="carousel-container" id="carousel-container">
+    <i class="iconfont icon-arrow-left" id="left"></i>
+    <i class="iconfont icon-arrow-right" id="right"></i>
+
+
+    <div class="carousel" id="carousel">
+        <a href="javascript:;"><img src="./images/01.jpg" alt=""></a>
+        <a href="javascript:;"><img src="./images/02.jpg" alt=""></a>
+        <a href="javascript:;"><img src="./images/03.jpg" alt=""></a>
+        <a href="javascript:;"><img src="./images/04.jpg" alt=""></a>
+        <a href="javascript:;"><img src="./images/05.jpg" alt=""></a>
+        <a href="javascript:;"><img src="./images/06.jpg" alt=""></a>
+    </div>
+
+
+    <ul id="ul">
+        <li data-n="0" class="active"></li>
+        <li data-n="1"></li>
+        <li data-n="2"></li>
+        <li data-n="3"></li>
+        <li data-n="4"></li>
+        <li data-n="5"></li>
+    </ul>
+</div>

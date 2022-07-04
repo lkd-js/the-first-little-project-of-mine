@@ -1,0 +1,9 @@
+<div class="top-bar">
+    <div class="page-content">
+        <div class="content">{{text}}</div>
+    </div>
+    <input type="text" placeholder="请输入搜索内容">
+    <i class="iconfont icon-Search-20" id="search"></i>
+    <i class="iconfont icon-a-33-gerenzhongxin"></i>
+    <a href="https://github.com/lkd-js"><i class="iconfont icon-a-ziyuan145" id="git"></i></a>
+</div>
